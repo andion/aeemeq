@@ -30,6 +30,22 @@
 		list-style: none;
 	}
 
+	section ol, section ul {
+		list-style: inherit;
+	}
+
+	section ol {
+		list-style-type: decimal;
+	}
+
+	section.left ol, section.left ul {
+		margin-left: 2em;
+	}
+
+	section.left li, section.left li {
+		margin-bottom: 1em;
+	}
+
 	blockquote, q {
 		quotes: none;
 	}
@@ -2131,6 +2147,10 @@
 			background-image: url("images/overlay.png");
 		}
 
+		#main > section.left {
+			text-align: left;
+		}
+
 			#main > section.dark {
 				color: #ddd;
 				color: rgba(255, 255, 255, 0.75);
@@ -2162,7 +2182,7 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image:  linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../../images/cacharrada_1028.jpg");
 			}
 
 			#main > section.two {
