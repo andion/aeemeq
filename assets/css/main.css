@@ -1932,12 +1932,20 @@
 		transition: background-color 0.35s ease-in-out;
 	}
 
+	.button.external {
+		background-color: darkorange;
+	}
+
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
 			background-color: #9ececc;
+		}
+
+		.button.external:hover {
+			background-color: orange;
 		}
 
 		input[type="button"]:active,
@@ -2116,6 +2124,7 @@
 		#footer .copyright {
 			cursor: default;
 			margin: 0;
+			font-size: 0.8em;
 		}
 
 			#footer .copyright li {
